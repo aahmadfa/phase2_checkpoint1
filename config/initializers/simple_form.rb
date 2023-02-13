@@ -173,4 +173,8 @@ SimpleForm.setup do |config|
   # Defines validation classes to the input_field. By default it's nil.
   # config.input_field_valid_class = 'is-valid'
   # config.input_field_error_class = 'is-invalid'
+
+  gem 'simple_form', '4.0.0'
+
+  gem 'validates_timeliness', git: "https://github.com/adzap/validates_timeliness"
 end
